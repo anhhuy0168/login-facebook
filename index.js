@@ -43,7 +43,7 @@ app.get('/auth/facebook/secrets',
       console.log(req)
   })
   app.get('/secrets', (req, res) => {
-    res.send('Failed to authenticate.......');
+    res.send('Failed to authenticate..');
   });
 
 
