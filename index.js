@@ -25,7 +25,7 @@ passport.deserializeUser(function(user,done){
 
 
 app.get('/', (req, res) => {
-    res.send('<a href="/auth/facebook">Authenticate with facebook</a>');
+    res.send('<a href="/auth/facebook">Authenticate with facebookkkkk</a>');
   });
 
 app.get('/auth/facebook',
@@ -43,7 +43,7 @@ app.get('/auth/facebook/secrets',
       console.log(req)
   })
   app.get('/secrets', (req, res) => {
-    res.send('Failed to authenticate..');
+    res.send('Failed to authenticate.......');
   });
 
 
